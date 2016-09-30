@@ -51,3 +51,12 @@ function psCheck() {
 
 };
 }
+function criteriaId() {password, username}
+  return {
+    password: password,
+    username: username,
+     checkId: function() {
+      return this.modelyear + "-" + this.make + "-" + this.color
+    }
+    };
+  }
